@@ -1,0 +1,106 @@
+
+
+.watchitem_section {
+    padding: 100px 0px;
+    width: 100%;
+    display: inline-block;
+    background: #F5F2F0;
+    position: relative;
+}
+.list_heading {
+    text-align: center;
+}
+.list_title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #161722;
+}
+.watchimg {
+    width: 100%;
+}
+.watch_col {
+    position: relative;
+    margin-top: 20px !important;
+}
+.ourlist_heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    max-width: 439px;
+    display: table;
+    margin: 20px auto !important;
+    color: #161722;
+    text-transform: uppercase;
+}
+.watch_heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 238px;
+    margin: 0px 0 25px !important;
+}
+.our_heading {
+    position: absolute;
+    top: auto;
+    bottom: 2%;
+    padding: 0 50px 0;
+}
+.watch_parg {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.78;
+    display: none;
+}
+.hover_watch:hover .watch_parg {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.78;
+    display: block;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1024px){
+    .watch_heading{font-size: 19px}
+}
+@media only screen and (max-width: 1199px) {
+    .watch_heading{
+        line-height: 28px;}
+        .our_heading{padding: 0 37px 0;}
+  }
+  @media only screen and (max-width: 992px) {
+    .watchitem_section{padding: 50px 0px;}
+    .watchimg{margin-bottom: 20px;}
+    .ourlist_heading{font-size: 36px;line-height: 44px;max-width: 374px;}
+  }
+  @media only screen and (max-width: 768px) {
+    .ourlist_heading{font-size: 29px;line-height: 35px;max-width: 304px;}
+  }
+  @media only screen and (max-width: 767px) {
+    .watchitem_section{padding: 30px 0px;}
+  }
+  @media only screen and (max-width: 567px) {
+    .ourlist_heading{font-size: 20px;line-height: 29px;max-width: 200px;margin: 10px auto !important; }
+  }
+  /* Responsive end  */
+  
+  
+  

@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed"),
+    url("../public/font/RobotoCondensed-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+.footer_section {
+  display: inline-block;
+  width: 100%;
+  padding: 50px 0;
+  background: #161722;
+}
+.footer_heading {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 0 20px !important;
+}
+.footer_link {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff !important;
+  opacity: 0.78;
+  text-transform: uppercase;
+  padding: 0 0 20px !important;
+}
+.address {
+  padding: 30px 0;
+}
+.footer_address {
+  margin-bottom: 20px !important;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer_right {
+  display: flex;
+}
+.footer_social_icon {
+  display: flex;
+  padding: 0;
+}
+.footer_imglink {
+  padding: 0 !important;
+  margin-right: 25px;
+}
+.heading_news {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+.mailinput {
+  background-color: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-sizing: border-box !important;
+  border-radius: 12px !important;
+  outline: none !important;
+  position: relative !important;
+  padding: 20px 20px !important;
+}
+.mailinput input:focus{
+  box-shadow: none !important;
+}
+.mailinput::placeholder {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.subscribe_btn {
+  background: #ffd2a4;
+  border-radius: 12px !important;
+  border: 0;
+  padding: 20px 48px;
+  text-transform: uppercase;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  max-height: 64px;
+  max-width: 201px;
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  bottom: 0;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+  .subscribe_btn {
+    padding: 20px 32px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .mailinput {
+    padding: 20px 12px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .subscribe_btn {
+    padding: 20px 13px;
+  }
+}
+@media only screen and (max-width: 767px) {
+    .mailinput{padding: 13px 12px !important;}
+  .heading_news {
+    font-size: 27px;
+    line-height: 39px;
+  }
+  .mailinput::placeholder {
+    font-size: 14px;
+  }
+  .subscribe_btn {
+    padding: 0px 16px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .heading_news {
+    margin: 12px 0;
+  }
+  .footer_section {
+    text-align: center;
+  }
+  .footer_social_icon {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .subscribe_btn {
+    padding: 15px 14px;
+  }
+}
+/* Responsive end  */

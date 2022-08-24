@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "releventicon": "/image/aboutusicon.svg",
+    "releventheading": "About us",
+    "releventdescr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 2,
+    "releventicon": "/image/geticon.svg",
+    "releventheading": "Get involved",
+    "releventdescr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  {
+    "id": 3,
+    "releventicon": "/image/backicon.svg",
+    "releventheading": "Giving back",
+    "releventdescr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

@@ -1,0 +1,92 @@
+
+
+.relevent_section {
+    padding: 100px 0px;
+    width: 100%;
+    display: inline-block;
+}
+.relevent_main_heading {
+    text-align: center;
+}
+.subheding {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #161722;
+}
+.heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+    margin: 10px 0 !important;
+    
+}
+.relevent_cont {
+    background: #FFF5EB;
+    padding: 80px;
+    margin-top: 50px;
+    border-bottom: 10px solid #FFD2A4;
+    /* max-width: 411px;    */
+    max-height: 380px;
+}
+.about_parg {
+    padding: 15px 0;
+}
+.relev_title {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+.rel_parg {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    max-width: 251px;
+    display: inline-block;
+}
+
+
+/* Responsive start  */
+@media only screen and (max-width: 1200px){
+    .relevent_cont{padding: 61px;}
+    .relev_title{font-size: 27px;}
+}
+@media only screen and (max-width: 1199px) {
+    
+  }
+  @media only screen and (max-width: 992px) {
+    .relevent_section {padding: 50px 0px;}
+    .heading{font-size: 37px;}
+    .relevent_cont{padding: 53px;margin-top: 25px;}
+      .relev_title{font-size: 21px;}
+  }
+  @media only screen and (max-width: 768px) {
+    .relev_title{font-size: 21px; line-height: 24px;}
+  }
+  @media only screen and (max-width: 767px) {
+    .relevent_cont{padding: 30px;}
+    .relevent_section {padding: 30px 0px;}
+    .relevent_cont{max-width: 411px; margin: 15px auto;}
+  }
+  @media only screen and (max-width: 567px) {
+    .heading{font-size: 25px; line-height: 38px;}
+  }
+  /* Responsive end  */
+  
